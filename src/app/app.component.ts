@@ -6,10 +6,14 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  appName = ' This is a One-way Data binding';
   name = 'Angular ' + VERSION.major;
+  //Interpolation
+  appName = ' This is a One-way Data binding';
+
+  //Property Binding
   clientName: string = 'Allen';
 
+  //STYLE BINDING, CSS BINDING
   appliedCSSClass = 'green';
   notappliedCSSClass = true;
   myColor = 'red';
